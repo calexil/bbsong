@@ -10,7 +10,8 @@ while True:
     try:
 # Sleep so there is time for the script to execute after MP or satchmo
         pyautogui.time.sleep(2)
-# Start the song
+# Start the song, this is where you enter notes:
+# Sample Below, keys must be pressed and released, sleep can me in increments of a secone ie: (0.25)
         pyautogui.keyDown('i')
         pyautogui.time.sleep(1)
         pyautogui.keyUp('i')
@@ -27,38 +28,6 @@ while True:
         pyautogui.keyUp('i')
         pyautogui.keyDown('o')
         pyautogui.keyUp('o')
-
-        pyautogui.keyUp('w')
-
-        pyautogui.keyDown('j')
-        pyautogui.keyUp('j')
-        pyautogui.keyDown('k')
-        pyautogui.keyUp('k')
-        pyautogui.keyDown('l')
-        pyautogui.keyUp('l')
-        pyautogui.keyDown('u')
-        pyautogui.keyUp('u')
-        pyautogui.keyDown('i')
-        pyautogui.keyUp('i')
-        pyautogui.keyDown('o')
-        pyautogui.keyUp('o')
-
-        pyautogui.keyDown('s')
-
-        pyautogui.keyDown('j')
-        pyautogui.keyUp('j')
-        pyautogui.keyDown('k')
-        pyautogui.keyUp('k')
-        pyautogui.keyDown('l')
-        pyautogui.keyUp('l')
-        pyautogui.keyDown('u')
-        pyautogui.keyUp('u')
-        pyautogui.keyDown('i')
-        pyautogui.keyUp('i')
-        pyautogui.keyDown('o')
-        pyautogui.keyUp('o')
-
-        pyautogui.keyUp('s')
 
 # Exception handle 
 # this section needs work and sometimes fails to function properly
