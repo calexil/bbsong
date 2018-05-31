@@ -15,7 +15,7 @@ while True:
         pyautogui.keyUp('i')
 # Start the song, this is where you enter notes:
 # Sample Below, keys must be pressed and released, sleep can be in increments of a second ie: (0.25)
-        pyautogui.keyDown('w')
+# Multiple keys musi be pressed with - pyautogui.press(['key1', 'key2'])
         pyautogui.keyDown('j')
         pyautogui.keyUp('j')
         pyautogui.keyDown('k')
