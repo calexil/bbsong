@@ -5,7 +5,7 @@ import os
 counter = 0
 
 # Start the while loop
-while True:
+while counter < 1:
     try:
 # Sleep so there is time for the script to execute after MP or satchmo
         pyautogui.time.sleep(2)
@@ -13,7 +13,7 @@ while True:
         pyautogui.keyDown('i')
         pyautogui.time.sleep(1)
         pyautogui.keyUp('i')
-# Start the song, this plays lp-mp-hp-lk-mk-hk on each available scale continuously.
+# Start the song, this plays lp-mp-hp-lk-mk-hk on each available scale.
         pyautogui.keyDown('w')
         pyautogui.keyDown('j')
         pyautogui.keyUp('j')
@@ -59,12 +59,11 @@ while True:
         pyautogui.keyUp('o')
 
         pyautogui.keyUp('s')
-
+        counter += 1
 # Exception handle 
 # this section needs work and sometimes fails to function properly
     except Exception:
-        print ("Exception thrown, calculating course of action")
+        print ("Oops you broke it")
         counter += 1
         print ("counter =" + str(counter))
-        if counter >= 5: counter = 0
-        pyautogui.time.sleep(2)
+        if counter >= 2: exit
