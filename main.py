@@ -9,11 +9,12 @@ while True:
     try:
 # Sleep so there is time for the script to execute after MP or satchmo
         pyautogui.time.sleep(2)
-# Start the song, this is where you enter notes:
-# Sample Below, keys must be pressed and released, sleep can be in increments of a second ie: (0.25)
+# Press and delay release of MP to start a song (This section can be removed if using for lvl 5 only
         pyautogui.keyDown('i')
         pyautogui.time.sleep(1)
         pyautogui.keyUp('i')
+# Start the song, this is where you enter notes:
+# Sample Below, keys must be pressed and released, sleep can be in increments of a second ie: (0.25)
         pyautogui.keyDown('w')
         pyautogui.keyDown('j')
         pyautogui.keyUp('j')

@@ -9,10 +9,11 @@ while True:
     try:
 # Sleep so there is time for the script to execute after MP or satchmo
         pyautogui.time.sleep(2)
-# Start the song, this plays lp-mp-hp-lk-mk-hk on each available scale continuously.
+# Press and delay release of MP to start a song (This section can be removed if using for lvl 5 only
         pyautogui.keyDown('i')
         pyautogui.time.sleep(1)
         pyautogui.keyUp('i')
+# Start the song, this plays lp-mp-hp-lk-mk-hk on each available scale continuously.
         pyautogui.keyDown('w')
         pyautogui.keyDown('j')
         pyautogui.keyUp('j')
