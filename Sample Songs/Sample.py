@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 import pyautogui
 import os
 # Set a counter to count the # of exceptions occur
