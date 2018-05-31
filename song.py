@@ -8,8 +8,9 @@ counter = 0
 # Start the while loop
 while True:
     try:
+# Sleep so there is time for the script to execute after MP or satchmo
         pyautogui.time.sleep(2)
-# Air combo starter
+# Start the song
         pyautogui.keyDown('i')
         pyautogui.time.sleep(1)
         pyautogui.keyUp('i')
