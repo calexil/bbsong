@@ -1,5 +1,7 @@
 # bbsong
 
+[![GitHub issues](https://img.shields.io/github/issues/calexil/bbsong.svg)](https://github.com/calexil/bbsong/issues)  [![GitHub stars](https://img.shields.io/github/stars/calexil/bbsong.svg)](https://github.com/calexil/bbsong/stargazers)  [![GitHub forks](https://img.shields.io/github/forks/calexil/bbsong.svg)](https://github.com/calexil/bbsong/network)
+
 ## Script to automatically play big band songs in Skullgirls
 
 ## Add your own songs and submit Pull Requests to add to the growing library
