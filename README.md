@@ -1,6 +1,9 @@
 # bbsong
 
-[![CodeFactor](https://www.codefactor.io/repository/github/calexil/bbsong/badge)](https://www.codefactor.io/repository/github/calexil/bbsong)  [![GitHub issues](https://img.shields.io/github/issues/calexil/bbsong.svg)](https://github.com/calexil/bbsong/issues)  [![GitHub stars](https://img.shields.io/github/stars/calexil/bbsong.svg)](https://github.com/calexil/bbsong/stargazers)  [![GitHub forks](https://img.shields.io/github/forks/calexil/bbsong.svg)](https://github.com/calexil/bbsong/network)
+[![CodeFactor](https://www.codefactor.io/repository/github/calexil/bbsong/badge)](https://www.codefactor.io/repository/github/calexil/bbsong)  
+[![GitHub issues](https://img.shields.io/github/issues/calexil/bbsong.svg)](https://github.com/calexil/bbsong/issues)  
+[![GitHub stars](https://img.shields.io/github/stars/calexil/bbsong.svg)](https://github.com/calexil/bbsong/stargazers)  
+[![GitHub forks](https://img.shields.io/github/forks/calexil/bbsong.svg)](https://github.com/calexil/bbsong/network)  
 
 ## Script to automatically play big band songs in Skullgirls
 
